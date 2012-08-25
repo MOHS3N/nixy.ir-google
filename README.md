@@ -19,6 +19,6 @@ Easy Download Google Apps for Dear Persian Pepole , Google LOL :)
 ### url: ###
 [www.nixy.ir/google](http://www.nixy.ir/google)
 
-###A PYS Team
+###A pys Team
 Produced by Mohsen Niyazdel
 
