@@ -5,14 +5,19 @@ $(function(){
 	
 	
 	$('div.mail').hover(function(){
-			$('div.mail').css({'border-color':'#FC0'})
+			$('div.mail').css({'border-color':'#FC0'});
 			$('img.black').css({'opacity':'0'});
 			
 	},function(){
 		
-			$('div.mail').css({'border-color':'rgba(299, 299, 299 ,0)'})
+			$('div.mail').css({'border-color':'rgba(299, 299, 299 ,0)'});
 			$('img.black').css({'opacity':'1'});	
-	})
+	});
 			
-			
+	$('div.mail').click(function(){
+		
+		$('div.mail').toggleClass('add-mail','mail');
+		$('div.mail').removeClass('mail');
+		$('div.main-menu').css({'margin-top':'50px'})
+	 })		
 })
